@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/totalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:id="@+id/letterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ESC"
+                style="@style/keybtn"
+                android:tag="41"
+                android:text="Esc" />
+
+            <Button
+                android:id="@+id/F1"
+                style="@style/keybtn"
+                android:tag="58"
+                android:text="F1" />
+
+            <Button
+                android:id="@+id/F2"
+                style="@style/keybtn"
+                android:tag="59"
+                android:text="F2" />
+
+            <Button
+                android:id="@+id/F3"
+                style="@style/keybtn"
+                android:tag="60"
+                android:text="F3" />
+
+            <Button
+                android:id="@+id/F4"
+                style="@style/keybtn"
+                android:tag="61"
+                android:text="F4" />
+
+            <Button
+                android:id="@+id/F5"
+                style="@style/keybtn"
+                android:tag="62"
+                android:text="F5" />
+
+            <Button
+                android:id="@+id/F6"
+                style="@style/keybtn"
+                android:tag="63"
+                android:text="F6" />
+
+            <Button
+                android:id="@+id/F7"
+                style="@style/keybtn"
+                android:tag="64"
+                android:text="F7" />
+
+            <Button
+                android:id="@+id/F8"
+                style="@style/keybtn"
+                android:tag="65"
+                android:text="F8" />
+
+            <Button
+                android:id="@+id/F9"
+                style="@style/keybtn"
+                android:tag="66"
+                android:text="F9" />
+
+            <Button
+                android:id="@+id/F10"
+                style="@style/keybtn"
+                android:tag="67"
+                android:text="F10" />
+
+            <Button
+                android:id="@+id/F11"
+                style="@style/keybtn"
+                android:tag="68"
+                android:text="F11" />
+
+            <Button
+                android:id="@+id/F12"
+                style="@style/keybtn"
+                android:tag="69"
+                android:text="F12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/s53"
+                style="@style/keybtn"
+                android:tag="53"
+                android:text="`" />
+
+            <Button
+                android:id="@+id/s30"
+                style="@style/keybtn"
+                android:tag="30"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/s31"
+                style="@style/keybtn"
+                android:tag="31"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/s32"
+                style="@style/keybtn"
+                android:tag="32"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/s33"
+                style="@style/keybtn"
+                android:tag="33"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/s34"
+                style="@style/keybtn"
+                android:tag="34"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/s35"
+                style="@style/keybtn"
+                android:tag="35"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/s36"
+                style="@style/keybtn"
+                android:tag="36"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/s37"
+                style="@style/keybtn"
+                android:tag="37"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/s38"
+                style="@style/keybtn"
+                android:tag="38"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/s39"
+                style="@style/keybtn"
+                android:tag="39"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/s45"
+                style="@style/keybtn"
+                android:tag="45"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/s46"
+                style="@style/keybtn"
+                android:tag="46"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/s42"
+                style="@style/keybtn"
+                android:layout_weight="1.3"
+                android:tag="42"
+                android:text="←" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/TAB"
+                style="@style/keybtn"
+                android:layout_weight="1.3"
+                android:tag="43"
+                android:text="Tab" />
+
+            <Button
+                android:id="@+id/Q"
+                style="@style/keybtn"
+                android:tag="20"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/W"
+                style="@style/keybtn"
+                android:tag="26"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/E"
+                style="@style/keybtn"
+                android:tag="8"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/R"
+                style="@style/keybtn"
+                android:tag="21"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/T"
+                style="@style/keybtn"
+                android:tag="23"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/Y"
+                style="@style/keybtn"
+                android:tag="28"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/U"
+                style="@style/keybtn"
+                android:tag="24"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/I"
+                style="@style/keybtn"
+                android:tag="12"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/O"
+                style="@style/keybtn"
+                android:tag="18"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/P"
+                style="@style/keybtn"
+                android:tag="19"
+                android:text="P" />
+
+            <Button
+                android:id="@+id/s47"
+                style="@style/keybtn"
+                android:tag="47"
+                android:text="[" />
+
+            <Button
+                android:id="@+id/s48"
+                style="@style/keybtn"
+                android:tag="48"
+                android:text="]" />
+
+            <Button
+                android:id="@+id/s49"
+                style="@style/keybtn"
+                android:tag="49"
+                android:text="\\" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/CAP"
+                style="@style/keybtn"
+                android:layout_weight="1.65"
+                android:tag="57"
+                android:text="Caps" />
+
+            <Button
+                android:id="@+id/A"
+                style="@style/keybtn"
+                android:tag="4"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/S"
+                style="@style/keybtn"
+                android:tag="22"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/D"
+                style="@style/keybtn"
+                android:tag="7"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/F"
+                style="@style/keybtn"
+                android:tag="9"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/G"
+                style="@style/keybtn"
+                android:tag="10"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/H"
+                style="@style/keybtn"
+                android:tag="11"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/J"
+                style="@style/keybtn"
+                android:tag="13"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/K"
+                style="@style/keybtn"
+                android:tag="14"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/L"
+                style="@style/keybtn"
+                android:tag="15"
+                android:text="L" />
+
+            <Button
+                android:id="@+id/s51"
+                style="@style/keybtn"
+                android:tag="51"
+                android:text=";" />
+
+            <Button
+                android:id="@+id/s52"
+                style="@style/keybtn"
+                android:tag="52"
+                android:text="'" />
+
+            <Button
+                android:id="@+id/s40"
+                style="@style/keybtn"
+                android:layout_weight="1.65"
+                android:tag="40"
+                android:text="Enter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/LSHIFT"
+                style="@style/keybtn"
+                android:layout_weight="2.15"
+                android:tag="1"
+                android:text="Shift" />
+
+            <Button
+                android:id="@+id/Z"
+                style="@style/keybtn"
+                android:tag="29"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/X"
+                style="@style/keybtn"
+                android:tag="27"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/C"
+                style="@style/keybtn"
+                android:tag="6"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/V"
+                style="@style/keybtn"
+                android:tag="25"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/B"
+                style="@style/keybtn"
+                android:tag="5"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/N"
+                style="@style/keybtn"
+                android:tag="17"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/M"
+                style="@style/keybtn"
+                android:tag="16"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/s54"
+                style="@style/keybtn"
+                android:tag="54"
+                android:text="," />
+
+            <Button
+                android:id="@+id/s55"
+                style="@style/keybtn"
+                android:tag="55"
+                android:text="." />
+
+            <Button
+                android:id="@+id/s56"
+                style="@style/keybtn"
+                android:tag="56"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/RSHIFT"
+                style="@style/keybtn"
+                android:layout_weight="2.15"
+                android:tag="5"
+                android:text="Shift" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/LCTRL"
+                style="@style/keybtn"
+                android:tag="0"
+                android:text="Ctrl" />
+
+            <Button
+                android:id="@+id/LGUI"
+                style="@style/keybtn"
+                android:tag="3"
+                android:text="田" />
+
+            <Button
+                android:id="@+id/LALT"
+                style="@style/keybtn"
+                android:tag="2"
+                android:text="Alt" />
+
+            <Button
+                android:id="@+id/SPACE"
+                style="@style/keybtn"
+                android:layout_weight="6"
+                android:tag="44" />
+
+            <Button
+                android:id="@+id/RALT"
+                style="@style/keybtn"
+                android:tag="6"
+                android:text="Alt" />
+
+            <Button
+                android:id="@+id/RGUI"
+                style="@style/keybtn"
+                android:tag="7"
+                android:text="亖" />
+
+            <Button
+                android:id="@+id/RCTRL"
+                style="@style/keybtn"
+                android:tag="4"
+                android:text="Ctrl" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numericLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/INSERT"
+                style="@style/keybtn"
+                android:tag="73"
+                android:text="Ins" />
+
+            <Button
+                android:id="@+id/HOME"
+                style="@style/keybtn"
+                android:tag="74"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/PAGEUP"
+                style="@style/keybtn"
+                android:tag="75"
+                android:text="PgUp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+            <Button
+                android:id="@+id/NUMLOCK"
+                style="@style/keybtn"
+                android:tag="83"
+                android:text="NumL" />
+
+
+            <Button
+                android:id="@+id/s84"
+                style="@style/keybtn"
+                android:tag="84"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/s85"
+                style="@style/keybtn"
+                android:tag="85"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/s86"
+                style="@style/keybtn"
+                android:tag="86"
+                android:text="-" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/DELETE"
+                        style="@style/keybtn"
+                        android:tag="76"
+                        android:text="Del" />
+
+                    <Button
+                        android:id="@+id/END"
+                        style="@style/keybtn"
+                        android:tag="77"
+                        android:text="End" />
+
+                    <Button
+                        android:id="@+id/PAGEDOWN"
+                        style="@style/keybtn"
+                        android:tag="78"
+                        android:text="PgDn" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3" />
+
+                    <Button
+                        android:id="@+id/s95"
+                        style="@style/keybtn"
+                        android:tag="95"
+                        android:text="7" />
+
+
+                    <Button
+                        android:id="@+id/s96"
+                        style="@style/keybtn"
+                        android:tag="96"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/s97"
+                        style="@style/keybtn"
+                        android:tag="97"
+                        android:text="9" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6" />
+
+                    <Button
+                        android:id="@+id/s92"
+                        style="@style/keybtn"
+                        android:tag="92"
+                        android:text="4" />
+
+
+                    <Button
+                        android:id="@+id/s93"
+                        style="@style/keybtn"
+                        android:tag="93"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/s94"
+                        style="@style/keybtn"
+                        android:tag="94"
+                        android:text="6" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/UPARROW"
+                        style="@style/keybtn"
+                        android:tag="82"
+                        android:text="↑" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4" />
+
+                    <Button
+                        android:id="@+id/s89"
+                        style="@style/keybtn"
+                        android:tag="89"
+                        android:text="1" />
+
+
+                    <Button
+                        android:id="@+id/s90"
+                        style="@style/keybtn"
+                        android:tag="90"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/s91"
+                        style="@style/keybtn"
+                        android:tag="91"
+                        android:text="3" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/LEFTARROW"
+                        style="@style/keybtn"
+                        android:tag="80"
+                        android:text="←" />
+
+                    <Button
+                        android:id="@+id/DOWNARROW"
+                        style="@style/keybtn"
+                        android:tag="81"
+                        android:text="↓" />
+
+                    <Button
+                        android:id="@+id/RIGHTARROW"
+                        style="@style/keybtn"
+                        android:tag="79"
+                        android:text="→" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3" />
+
+                    <Button
+                        android:id="@+id/s98"
+                        style="@style/keybtn"
+                        android:layout_weight="2"
+                        android:tag="98"
+                        android:text="0" />
+
+
+                    <Button
+                        android:id="@+id/s99"
+                        style="@style/keybtn"
+                        android:tag="99"
+                        android:text="." />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/s87"
+                    style="@style/keybtn"
+                    android:layout_width="match_parent"
+                    android:tag="87"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/s88"
+                    style="@style/keybtn"
+                    android:layout_width="match_parent"
+                    android:tag="88"
+                    android:text="Enter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="无法连接USB键盘服务\n点我查看帮助教程"
+        android:textColor="@android:color/holo_red_light" />
+
+</LinearLayout>
